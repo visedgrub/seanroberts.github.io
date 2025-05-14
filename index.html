@@ -63,6 +63,11 @@
             border-top: 2px dashed #FFFFFF;
             padding-top: 20px;
         }
+         /* Styling to center the audio player */
+        audio {
+            margin: 10px auto; /* Center the player */
+            display: block; /* Make it a block element to center easily */
+        }
     </style>
 </head>
 <body>
@@ -79,6 +84,10 @@
         It's still under construction, so please excuse the mess!
     </p>
 
+    <audio controls>
+      <source src="https://billwurtz.com/where-ive-been.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <table>
         <tr>
             <td style="width: 200px;">
